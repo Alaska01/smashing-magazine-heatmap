@@ -1,7 +1,30 @@
-html{
+/* General Page Formatting */
+html {
     font-size: 62.5%;
     box-sizing: border-box;
+    Padding: 0;
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
+
+a {
+text-decoration: none;
+color: white;
+}
+
+/* Utilities */
+
+.dark-gray-bg {
+background-color: #333;
+}
+
+.midium-gray-bg{
+    background-color: #aaa;
+}
+.light-gray-bg {
+background-color: #d3d3d3;
+}
+
+/* Nav Bar */
 
 .nav-bar{
     display: flex;
@@ -9,13 +32,50 @@ html{
     justify-content: space-around;
     height: 10vh;
     align-items: center;
-    background-color:lightgray;
+    background-color:#ccc;
     font-size: 2rem;
 }
+
+.nav-bar a {
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+    padding: 1rem 1rem;
+} 
+
+.nav-bar .nav-list-2 {
+    background-color: #333;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+.nav-bar .nav-right {
+    /* display: inline-block; */
+    width: 3rem;
+    height: 4rem;
+    margin-left: 2rem;
+}
+
+.nav-bar .nav-right .nav-input {
+    height: 4rem;
+    border-radius: 0.5rem ;
+    width: 18rem;
+}
+
+.nav-bar .nav-list a:hover {
+background-color: #333;
+border-radius: 0.5rem;
+/* padding: 1.5rem 1.5rem; */
+}
+
 .nav-middle {
     display: flex;
     justify-content: space-around;
     width: 65rem;
+}
+
+.nav-middle .nav-list-2 a img {
+    height: 2.4rem;
+    width: 2.4rem;
+    padding-left: 1rem;
 }
 
 .nav-middle div{
@@ -24,29 +84,96 @@ html{
     width: 65rem;
 }
 
-
 .nav-left {
     display: flex;
     flex:1;
     justify-content: center;
-
 }
 
 .nav-middle {
     flex: 4;
-
 }
 
-.nav-middle ul li a{
-    border-radius: 0.5rem;
-    width: 3rem;
-    background-color: chocolate;
-
-}
 .nav-right {
-    flex: 1;
+    flex: 1;   
 }
+
 .nav-left img {
     height: 3rem;
     width: 3rem;
+}
+/* Major Grid Section */
+
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 200vh;
+    width: 100%;
+}
+
+.grid-two{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100vh;
+}
+
+.grid-three {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+}
+/* Positioning Grid Sections */
+.ft-1 {
+    grid-template-columns: 1/2;
+    grid-template-rows: 1/2;
+}
+
+.ft-1a {
+    grid-template-columns: 2/3;
+    grid-template-rows: 1/2;
+}
+
+.ft-2 {
+    grid-template-columns: 1/2;
+    grid-template-rows: 1/2;
+}
+
+.ft-2a {
+    grid-template-columns: 2/3;
+    grid-template-rows: 1/2;
+}
+
+.col-1{
+    grid-template-columns: 1/2 ;
+    background-color: lightsalmon;
+}
+
+.col-2{
+    grid-template-columns: 2/3 ;
+    background-color: red;
+}
+
+.col-3 {
+    grid-template-columns: 3/4 ;
+    background-color: lightsalmon;
+}
+
+.col-1a {
+    grid-template-columns: 1/2;
+    grid-template-rows: 1/2;
+    background-color: lime;
+}
+
+.col-2a {
+    grid-template-columns: 2/-1;
+    grid-template-rows: 1/-1;
+    background-color: maroon;
+}
+
+.col-3a {
+    grid-template-columns: 1/2;
+    grid-template-rows: 2/3;
+    background-color: mediumblue;
 }
