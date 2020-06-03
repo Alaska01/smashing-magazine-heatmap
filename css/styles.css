@@ -126,54 +126,62 @@ border-radius: 0.5rem;
 }
 /* Positioning Grid Sections */
 .ft-1 {
-    grid-template-columns: 1/2;
-    grid-template-rows: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* grid-template-columns: 1/2;
+    grid-template-rows: 1/2; */
 }
 
 .ft-1a {
-    grid-template-columns: 2/3;
-    grid-template-rows: 1/2;
+    /* grid-template-columns: 2/3;
+    grid-template-rows: 1/2; */
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .ft-2 {
-    grid-template-columns: 1/2;
-    grid-template-rows: 1/2;
+    /* grid-template-columns: 1/2;
+    grid-template-rows: 1/2; */
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .ft-2a {
-    grid-template-columns: 2/3;
-    grid-template-rows: 1/2;
+    /* grid-template-columns: 2/3;
+    grid-template-rows: 1/2; */
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .col-1{
-    grid-template-columns: 1/2 ;
+    grid-column: 1/2 ;
     background-color: lightsalmon;
 }
 
 .col-2{
-    grid-template-columns: 2/3 ;
+    grid-column: 2/3 ;
     background-color: red;
 }
 
 .col-3 {
-    grid-template-columns: 3/4 ;
+    grid-column: 3/4 ;
     background-color: lightsalmon;
 }
 
 .col-1a {
-    grid-template-columns: 1/2;
-    grid-template-rows: 1/2;
+    grid-column: 1/2;
+    grid-row: 1/2;
     background-color: lime;
 }
 
 .col-2a {
-    grid-template-columns: 2/-1;
-    grid-template-rows: 1/-1;
+    grid-column: 2/-1;
+    grid-row: 1/-1;
     background-color: maroon;
 }
 
-.col-3a {
-    grid-template-columns: 1/2;
-    grid-template-rows: 2/3;
+/* .col-3a {
+    grid-column: 1/2;
+    grid-row: 2/3;
     background-color: mediumblue;
-}
+} */
