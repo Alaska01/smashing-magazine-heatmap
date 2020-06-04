@@ -6,6 +6,11 @@ html {
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
+sup {
+    font-size:xx-small; 
+    vertical-align:super;
+}
+
 a {
 text-decoration: none;
 color: white;
@@ -34,10 +39,22 @@ background-color: #d3d3d3;
     margin: 20%;
     color: white;
     line-height: 1.3;
+    position: relative;
 }
 
 .grid-one article p{
     font-size: 4rem;
+}
+
+.grid-one article .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.fa-long-arrow-alt-right {
+    font-size: 2rem;
+    transform: scale(3, 1);
 }
 
 .grid-one article div {
@@ -48,13 +65,28 @@ background-color: #d3d3d3;
 }
 .grid-one article div img {
     margin-bottom: 2rem;
+    border-radius: 0.5rem;
 }
 
 .grid-one article div p{
     font-size: 2rem;
     margin-left: 4rem;
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
 }
+
+.reactions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+    background-color: red;
+}
+
+.reactions p {
+    padding-left: 0;
+    background-color: green;
+}
+
 .grid-one article img {
     height: 10rem;
     width: 10rem;
