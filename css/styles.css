@@ -84,9 +84,31 @@ button:hover {
   position: relative;
 }
 
+.article-2 > h3 {
+  font-size: 2.5rem;
+}
+
+.grid-4box-1 h3 {
+  font-size: 1.8rem;
+}
+
 .grid-one .article-1 h3 {
   font-size: 2rem;
   margin-left: 4rem;
+}
+
+.reactions > p {
+  position: absolute;
+}
+
+.grid-4box-1 p {
+  font-size: 1.5rem;
+}
+
+.ft-section p {
+  align-self: center;
+  margin: 5rem 0;
+  font-size: 1.5rem;
 }
 
 .grid-one .article-1 p {
@@ -103,6 +125,19 @@ button:hover {
 .fa-long-arrow-alt-right {
   font-size: 2rem;
   transform: scale(3, 1);
+}
+
+.nav-middle div {
+  display: flex;
+  justify-content: space-around;
+  width: 65rem;
+}
+
+.fl-container-2 div div {
+  margin-top: 3rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-right: 4rem;
 }
 
 .grid-one .article-1 div {
@@ -134,8 +169,12 @@ button:hover {
   width: 100%;
 }
 
-.reactions > p {
-  position: absolute;
+.float-container img {
+  float: left;
+  width: 20rem;
+  height: 20rem;
+  margin: 4rem;
+  border-radius: 10%;
 }
 
 .grid-one .article-1 img {
@@ -163,25 +202,22 @@ button:hover {
   padding-bottom: 1rem;
 }
 
-.article-2 > h3 {
-  font-size: 2.5rem;
-}
-
 .article-2 > * {
   margin: 2rem 0;
 }
+
 .article-2 .arrow-2 {
   margin-top: 20rem;
   margin-left: 5rem;
 }
 
-.article-2:hover  .arrow-2 {
+.article-2:hover .arrow-2 {
   background-color: #444;
   color: white;
   width: 9rem;
   height: 5rem;
   padding-left: 5rem;
-  padding-top: 3rem;  
+  padding-top: 3rem;
 }
 
 /* Nav Bar */
@@ -201,10 +237,19 @@ button:hover {
   padding: 1rem 1rem;
 }
 
+.nav-list-2 {
+  display: flex;
+  align-items: center;
+}
+
 .nav-bar .nav-list-2 {
   background-color: #333;
   border-radius: 0.5rem;
   display: inline-block;
+}
+
+.nav-right {
+  flex: 1;
 }
 
 .nav-bar .nav-right {
@@ -224,6 +269,18 @@ button:hover {
   font-size: 1.8rem;
 }
 
+.latest-articles p a {
+  font-size: 2rem;
+  color: black;
+}
+
+.flex-main-section a:last-child {
+  width: 5rem;
+  padding: 2rem  6rem;
+  background-color: #333;
+  border-radius: 0.5rem;
+}
+
 .nav-bar .nav-list a:hover {
   background-color: #333;
   border-radius: 0.5rem;
@@ -235,9 +292,14 @@ button:hover {
   width: 65rem;
 }
 
-.nav-list-2 {
-  display: flex;
-  align-items: center;
+.grid-4box-2 .box-h img {
+  height: 25rem;
+  width: 20rem;
+  margin-left: 6rem;
+  top: -100px;
+  border-radius: 10%;
+  position: absolute;
+  transform: rotate(-20deg);
 }
 
 .nav-middle .nav-list-2 a img {
@@ -246,24 +308,10 @@ button:hover {
   padding-top: 7px;
 } 
 
-.nav-middle div {
-  display: flex;
-  justify-content: space-around;
-  width: 65rem;
-}
-
 .nav-left {
   display: flex;
   flex: 1;
   justify-content: center;
-}
-
-.nav-middle {
-  flex: 4;
-}
-
-.nav-right {
-  flex: 1;
 }
 
 .nav-left .svg-color {
@@ -325,11 +373,6 @@ button:hover {
   align-items: center;
 }
 
-.latest-articles p a {
-  font-size: 2rem;
-  color: black;
-}
-
 /* Major flex container */
 
 .flex-main-section {
@@ -354,27 +397,12 @@ button:hover {
   align-self: center;
 }
 
-.flex-main-section a:last-child {
-  width: 5rem;
-  padding: 2rem  6rem;
-  background-color: #333;
-  border-radius: 0.5rem;
-}
-
 /* Floats Section */
 
 .float-container {
   line-height: 2;
   font-size: 2rem;
-  height: 40rem
-}
-
-.float-container img {
-  float: left;
-  width: 20rem;
-  height: 20rem;
-  margin: 4rem;
-  border-radius: 10%;
+  height: 40rem;
 }
 
 .clear-float {
@@ -436,20 +464,13 @@ button:hover {
   width: 8rem;
 }
 
-.fl-container-2 div div {
-  margin-top: 3rem;
-  line-height: 1.5;
-  font-size: 1.5rem;
-  margin-right: 4rem;
-}
-
 /* Grid Four Section */
 
 .grid-four {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
-  height:300px;
+  height: 300px;
   position: relative; 
   color: white;
   line-height: 1.5;
@@ -461,16 +482,8 @@ button:hover {
   padding: 2rem;
 }
 
-.grid-4box-1 h3 {
-  font-size: 1.8rem;
-}
-
 .grid-4box-1 h1 {
   font-size: 3rem;
-}
-
-.grid-4box-1 p {
-  font-size: 1.5rem;
 }
 
 .grid-4box-1 button {
@@ -486,18 +499,8 @@ button:hover {
   grid-row: 1/1;
 }
 
-.grid-4box-2 .box-h img {
-  height: 25rem;
-  width: 20rem;
-  margin-left: 6rem;
-  top: -100px;
-  border-radius: 10%;
-  position: absolute;
-  transform: rotate(-20deg);
-}
-
 .grid-4box-2 .box-h img:hover {
-  transform: rotate(0deg)
+  transform: rotate(0deg);
 }
 
 .ft-section {
@@ -506,12 +509,6 @@ button:hover {
   justify-content: flex-start;
   height: 100vh;
   color: white;
-}
-
-.ft-section p {
-align-self: center;
-margin: 5rem 0;
-font-size: 1.5rem ;
 }
 
 .ft-section ul {
