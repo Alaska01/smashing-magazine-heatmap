@@ -24,7 +24,7 @@ From your command line, first clone the project:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Alaska01/Aye-Apple-Clone/tree/apple-clone-branch
+$ git clone https://github.com/Alaska01/smashing-magazine-heatmap/tree/smashing-branch
 
 # Go into the repository
 $ cd apple-clone-branch
