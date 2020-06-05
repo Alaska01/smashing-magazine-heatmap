@@ -306,7 +306,7 @@ button:hover {
   height: 2rem;
   width: 2.4rem;
   padding-top: 7px;
-} 
+}
 
 .nav-left {
   display: flex;
@@ -471,7 +471,7 @@ button:hover {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   height: 300px;
-  position: relative; 
+  position: relative;
   color: white;
   line-height: 1.5;
 }
