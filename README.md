@@ -1,8 +1,8 @@
-## New York Times
+## Smashing Magazine
 
 PROJECT:  DESIGN TEARDOWN
 
-Project Design Screenshot : ![Project Design](images/apple-cloned-image.JPG)
+Project Design Screenshot : ![Project Design](images/project-screenshot.JPG)
 
 
 ## Built With
@@ -12,7 +12,7 @@ Project Design Screenshot : ![Project Design](images/apple-cloned-image.JPG)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alaska01/Aye-Apple-Clone/7bc9ffd10526315a9b2bdcc11be96dd4c5b72686/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alaska01/smashing-magazine-heatmap/98c97123b5a0d7e559c21f0919a26c570cb6e648/index.html)
 
 # Getting Started 🚀
 
