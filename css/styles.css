@@ -88,6 +88,7 @@ button:hover {
   font-size: 2rem;
   margin-left: 4rem;
 }
+
 .grid-one .article-1 p {
   font-size: 5rem;
 }
@@ -218,6 +219,11 @@ button:hover {
   width: 18rem;
 }
 
+.grid-4box-1 button a {
+  color: black;
+  font-size: 1.8rem;
+}
+
 .nav-bar .nav-list a:hover {
   background-color: #333;
   border-radius: 0.5rem;
@@ -326,133 +332,133 @@ button:hover {
 
 /* Major flex container */
 
-.flex-main-section{
-    display: flex;
-    height: 150vh;
-    background-color: darkgray;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1;
-    font-size: 2rem;
-    padding: 2rem 2rem;
-    color: white;
+.flex-main-section {
+  display: flex;
+  height: 150vh;
+  background-color: darkgray;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+  font-size: 2rem;
+  padding: 2rem 2rem;
+  color: white;
 }
 
 .flex-main-section :nth-child(2),
 .flex-main-section :nth-child(3) {
-    font-size: 4.5rem;
+  font-size: 4.5rem;
 }
 
 .flex-main-section * {
-    margin: 2rem 20rem;
-    align-self: center;
+  margin: 2rem 20rem;
+  align-self: center;
 }
 
 .flex-main-section a:last-child {
-    width: 5rem;
-    padding: 2rem  6rem;
-    background-color: #333;
-    border-radius: 0.5rem;
+  width: 5rem;
+  padding: 2rem  6rem;
+  background-color: #333;
+  border-radius: 0.5rem;
 }
 
 /* Floats Section */
 
 .float-container {
-    line-height: 2;
-    font-size: 2rem;
-    height: 40rem
+  line-height: 2;
+  font-size: 2rem;
+  height: 40rem
 }
 
 .float-container img {
-    float: left;
-    width: 20rem;
-    height: 20rem;
-    margin: 4rem;
-    border-radius: 10%;
+  float: left;
+  width: 20rem;
+  height: 20rem;
+  margin: 4rem;
+  border-radius: 10%;
 }
 
 .clear-float {
-    clear: both;
+  clear: both;
 }
 
 /* Float Grid Section */
 
 .fl-container-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 2fr);
-    height: 150vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 2fr);
+  height: 150vh;
 }
 
 .box1 {
-    grid-row: 1/2;
-    grid-column: 1/2;
+  grid-row: 1/2;
+  grid-column: 1/2;
 }
 
 .box2 {
-    grid-row: 1/2;
-    grid-column: 2/3;
+  grid-row: 1/2;
+  grid-column: 2/3;
 }
 
 .box3 {
-    grid-row: 2/3;
-    grid-column: 1/2;
+  grid-row: 2/3;
+  grid-column: 1/2;
 }
 
 .box4 {
-    grid-row: 2/3;
-    grid-column: 2/3;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
 
 .box5 {
-    grid-row: 3/4;
-    grid-column: 1/2;
+  grid-row: 3/4;
+  grid-column: 1/2;
 }
 
 .box6 {
-    grid-row: 3/4;
-    grid-column: 2/3;
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 .fl-container-2 div .img1 {
-    float: left;
-    margin: 3rem;
-    border-radius: 10%;
-    height: 8rem;
-    width: 8rem;
+  float: left;
+  margin: 3rem;
+  border-radius: 10%;
+  height: 8rem;
+  width: 8rem;
 }
 
 .fl-container-2 div .img2 {
-    float: left;
-    border-radius: 10%;
-    margin: 3rem;
-    height: 8rem;
-    width: 8rem;
+  float: left;
+  border-radius: 10%;
+  margin: 3rem;
+  height: 8rem;
+  width: 8rem;
 }
 
 .fl-container-2 div div {
-    margin-top: 3rem;
-    line-height: 1.5;
-    font-size: 1.5rem;
-    margin-right: 4rem;
+  margin-top: 3rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-right: 4rem;
 }
 
 /* Grid Four Section */
 
 .grid-four {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    height:300px;
-    position: relative; 
-    color: white;
-    line-height: 1.5;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  height:300px;
+  position: relative; 
+  color: white;
+  line-height: 1.5;
 }
 
 .grid-4box-1 {
-    grid-column: 1/2;
-    grid-row: 1/1;
-    padding: 2rem;
+  grid-column: 1/2;
+  grid-row: 1/1;
+  padding: 2rem;
 }
 
 .grid-4box-1 h3 {
@@ -468,31 +474,26 @@ button:hover {
 }
 
 .grid-4box-1 button {
-   height: 5rem;
+  height: 5rem;
   width: 40rem;
   background-color: white;
   border-radius: 2rem;
   margin-top: 5rem;
 }
 
-.grid-4box-1 button a{
-  color: black;
-  font-size: 1.8rem;
-}
-
 .grid-4box-2 {
-    grid-column: 2/3;
-    grid-row: 1/1;
+  grid-column: 2/3;
+  grid-row: 1/1;
 }
 
 .grid-4box-2 .box-h img {
-    height: 25rem;
-    width: 20rem;
-    margin-left: 6rem;
-    top: -100px;
-    border-radius: 10%;
-    position: absolute;
-    transform: rotate(-20deg);
+  height: 25rem;
+  width: 20rem;
+  margin-left: 6rem;
+  top: -100px;
+  border-radius: 10%;
+  position: absolute;
+  transform: rotate(-20deg);
 }
 
 .grid-4box-2 .box-h img:hover {
