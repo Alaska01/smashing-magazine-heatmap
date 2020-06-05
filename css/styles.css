@@ -240,12 +240,8 @@ button:hover {
 .nav-list-2 {
   display: flex;
   align-items: center;
-}
-
-.nav-bar .nav-list-2 {
   background-color: #333;
   border-radius: 0.5rem;
-  display: inline-block;
 }
 
 .nav-right {
