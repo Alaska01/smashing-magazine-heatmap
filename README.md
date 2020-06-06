@@ -15,7 +15,7 @@ Project Design Screenshot : ![Project Design](images/project-screenshot.JPG)
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alaska01/smashing-magazine-heatmap/98c97123b5a0d7e559c21f0919a26c570cb6e648/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alaska01/smashing-magazine-heatmap/f4a73d8b68cb4ead14cf91904fa16bfcaedbadba/index.html)
 
 ## Getting started
 **We cloned a Smashing Magazine Heat Map. The main aim was to enforce visual hierarchy, typography and design principles.The elements get placed and styled roughly the same way as the source, so functionality is not a priority.**
@@ -42,13 +42,13 @@ $ cd apple-clone-branch
 ```
 
 ## CONTRIBUTORS
-👤 **Kalu Agu Kalu**
+👤 **Kalu Agu Kalu***
 
 - [Github]( https://github.com/Godswilly)
 - [Twitter](https://twitter.com/KaluAguKalu17)
 - [Linkedin](https://www.linkedin.com/in/kalu-agu-kalu/)
 
-👤 **Aye Daniel A**
+👤 **Aye Daniel A***
 
 - [Github](https://github.com/Alaska01)
 - [Twitter](https://twitter.com/AyeAsoo)
