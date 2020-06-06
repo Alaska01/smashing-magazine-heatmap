@@ -273,6 +273,18 @@ button:hover {
   color: black;
 }
 
+.sub-footer p a,
+.sub-sub-ft li a {
+  margin: 0 1rem;
+  text-decoration: underline;
+}
+
+.sub-footer .sub-sub-ft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .flex-main-section a:last-child {
   width: 5rem;
   padding: 2rem  6rem;
@@ -518,8 +530,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   margin: 2rem 0;
-  font-size: 2rem;
-  
+  font-size: 2rem; 
 }
 
 .sub-footer {
@@ -536,14 +547,4 @@ button:hover {
   margin: 1rem;
 }
 
-.sub-footer .sub-sub-ft {
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
 
-.sub-footer p a,
-.sub-sub-ft li a {
-  margin: 0 1rem;
-  text-decoration: underline;
-}
