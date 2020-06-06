@@ -530,7 +530,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   margin: 2rem 0;
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .sub-footer {
@@ -546,5 +546,3 @@ button:hover {
 .sub-footer > * {
   margin: 1rem;
 }
-
-
