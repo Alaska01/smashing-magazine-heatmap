@@ -13,23 +13,23 @@
 <body>
   <header>
     <nav class="nav-bar">
-      <div class="nav-left">
-        <a href="#"><img class="svg-color" src="images/logo1.svg" alt="Smashing logo" /></a>
-      </div>
-      <div class="nav-middle">
-        <div class="nav-list"><a href="#">Articles</a></div>
-        <div class="nav-list"><a href="#">Guides</a></div>
-        <div class="nav-list"><a href="#">Books</a></div>
-        <div class="nav-list"><a href="#">Events</a></div>
-        <div class="nav-list"><a href="#">Membership</a></div>
-        <div class="nav-list-2">
+      <ul class="nav-left">
+        <li><a href="#"><img class="svg-color" src="images/logo1.svg" alt="Smashing logo" /></a></li>
+      </ul>
+      <ul class="nav-middle">
+        <li class="nav-list"><a href="#">Articles</a></li>
+        <li class="nav-list"><a href="#">Guides</a></li>
+        <li class="nav-list"><a href="#">Books</a></li>
+        <li class="nav-list"><a href="#">Events</a></li>
+        <li class="nav-list"><a href="#">Membership</a></li>
+        <li class="nav-list-2">
           <a href="#">More</a>
           <a href="#"><img src="images/logo2.svg" alt="2nd Logo" /></a>
-        </div>
-      </div>
-      <div class="nav-right">
-        <input class="nav-input" type="text" placeholder="Search articles..." />
-      </div>
+        </li>
+      </ul>
+      <ul class="nav-right">
+        <li><input class="nav-input" type="text" placeholder="Search articles..." /></li>
+      </ul>
     </nav>
   </header>
   <main class="main-container">
@@ -394,12 +394,14 @@
     </div>
 
     <div class="grid-four dark-gray-bg">
-      <div class="grid-4box-1">
+      <div>
+        <article class="grid-4box-1">
         <h3>FEATURED SMASHING BOOK</h3>
-        <h1>Design Systems</h1>
+        <h2>Design Systems</h2>
         <p>Meet Design Systems, a recent Smashing book in which Alla Kholmatova explores how to set up an effective
           design system to create great digital products. With common traps, gotchas and lessons learned.</p>
           <button>Jump to table of contents ↬</button>
+        </article>
       </div>
       <div class="grid-4box-2">
         <div class="box-h"> <img src="images/person-1.jpg" alt=""></div>
@@ -493,10 +495,11 @@
 
 
   </main>
-  <footer class="ft-section dark-gray-bg">
-    <p>BROWSE ALL SMASHING MAGAZINE TOPICS</p>
+  <footer class="dark-gray-bg">
+    <div class="ft-section">
+      <p>BROWSE ALL SMASHING MAGAZINE TOPICS</p>
 
-    <ul>
+      <ul class="ul-ft">
       <li><a href="#">Accessibility</a></li>
       <li><a href="#">Androids</a></li>
       <li><a href="#">Animation</a></li>
@@ -507,9 +510,9 @@
       <li><a href="#">Design Systems</a></li>
       <li><a href="#">E-Commerce</a></li>
       <li><a href="#">Freebies</a></li>
-    </ul>
+      </ul>
 
-    <ul>
+      <ul class="ul-ft">
       <li><a href="#">Accessibility</a></li>
       <li><a href="#">Androids</a></li>
       <li><a href="#">Animation</a></li>
@@ -520,9 +523,9 @@
       <li><a href="#">Design Systems</a></li>
       <li><a href="#">E-Commerce</a></li>
       <li><a href="#">Freebies</a></li>
-    </ul>
+      </ul>
 
-    <ul>
+      <ul class="ul-ft">
       <li><a href="#">Accessibility</a></li>
       <li><a href="#">Androids</a></li>
       <li><a href="#">Animation</a></li>
@@ -533,7 +536,34 @@
       <li><a href="#">Design Systems</a></li>
       <li><a href="#">E-Commerce</a></li>
       <li><a href="#">Freebies</a></li>
-    </ul>
+      </ul>
+
+  </div>
+   
+  <div class="sub-footer">
+    <p>With a commitment to quality content for the design community.</p>
+
+      <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
+      
+      <p>Smashing is proudly running on <a href="#"> Netlify.</a></p>
+      
+      <p>Fonts by <a href="#">Latinotype.</a></p>
+      
+      <ul class="sub-sub-ft">
+        <li>✎ <a href="#">Write for us </a></li>
+        <li><a href="#">Contact us </a></li>
+        <li><a href="#">About us (Impressum)</a></li>
+        <li><a href="#">Privacy policy</a></li>
+      </ul>
+      
+      <ul class="sub-sub-ft">
+        <li><a href="#">Membership login</a></li>
+        <li><a href="#">Delivery times</a></li>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+      
+    </div>
+       
   </footer>
 </body>
 

@@ -4,6 +4,7 @@ html {
   box-sizing: border-box;
   padding: 0;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  filter: grayscale(100%);
 }
 
 sup {
@@ -242,6 +243,7 @@ button:hover {
   align-items: center;
   background-color: #333;
   border-radius: 0.5rem;
+  height: 3.5rem;
 }
 
 .nav-right {
@@ -255,9 +257,10 @@ button:hover {
 }
 
 .nav-bar .nav-right .nav-input {
-  height: 4rem;
+  height: 3rem;
   border-radius: 0.5rem;
-  width: 18rem;
+  width: 19rem;
+  font-size: 1.5rem;
 }
 
 .grid-4box-1 button a {
@@ -286,6 +289,10 @@ button:hover {
   display: flex;
   justify-content: space-around;
   width: 65rem;
+}
+
+.nav-middle .nav-list {
+  margin-top: 1rem;
 }
 
 .grid-4box-2 .box-h img {
@@ -358,7 +365,7 @@ button:hover {
 .col-2a {
   grid-column: 2/-1;
   grid-row: 1/-1;
-  background-color: #333; /* background-color: rgba(3, 3, 3, 0.3); */
+  background-color: #333;
 }
 
 .latest-articles {
@@ -478,7 +485,7 @@ button:hover {
   padding: 2rem;
 }
 
-.grid-4box-1 h1 {
+.grid-4box-1 h2 {
   font-size: 3rem;
 }
 
@@ -503,13 +510,40 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100vh;
+  height: 60vh;
   color: white;
 }
 
-.ft-section ul {
+.ft-section .ul-ft {
   display: flex;
   justify-content: space-around;
   margin: 2rem 0;
   font-size: 2rem;
+  
+}
+
+.sub-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-size: 2rem;
+  color: white;
+}
+
+.sub-footer > * {
+  margin: 1rem;
+}
+
+.sub-footer .sub-sub-ft {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.sub-footer p a,
+.sub-sub-ft li a {
+  margin: 0 1rem;
+  text-decoration: underline;
 }
