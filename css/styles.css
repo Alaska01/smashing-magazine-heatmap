@@ -541,6 +541,23 @@ button:hover {
   height: 60vh;
   font-size: 2rem;
   color: white;
+  position: relative;
+}
+
+.ft-image1 {
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  left: 8rem;
+  bottom: 5rem;
+}
+
+.ft-image2 {
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  right: 8rem;
+  bottom: 5rem;
 }
 
 .sub-footer > * {
